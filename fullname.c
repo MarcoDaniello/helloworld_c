@@ -2,7 +2,7 @@
 int main ()
 {
 
-printf("MARCO\n");
+printf("MARCO");
 printf("D'ANIELLO\n");
 
 return 0;
