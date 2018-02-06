@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define pi 3.14159
+
 int main()
 {
 
@@ -11,8 +11,8 @@ printf("Inserisci il valore del raggio: \n");
 scanf("%d", &r);
 
 
-c = 2*r*pi;
-s = pi*(r*r);
+c = 2*r*3.14;
+s = 3.14*(r*r);
 
 
 printf("La circonferenza misura:  %d\n", c);
