@@ -8,38 +8,43 @@ int b;
 int c;
 int d;
 int e;
+int m;
 
 printf("Inserisci il primo numero\n");
 scanf("%d", &a);
+
 printf("Inserisci il secondo numero\n");
 scanf("%d", &b);
+
 printf("Inserisci il terzo numero\n");
 scanf("%d", &c);
+
 printf("Inserisci il quarto numero\n");
 scanf("%d", &d);
+
 printf("Inserisci il quinto numero\n");
 scanf("%d", &e);
 
+m = a;
 
-if(a>b && a>c && a>d && a>e){
+if(b>m){
+m = b;
+}
 
-printf("Il maggiore e': %d\n", a);
+if (c>m){
+m = c;
 }
-else if (b>a && b>c && b>d && b>e){
-printf("IL maggiore e': %d\n", b);
+
+if(d>m){
+m = d;
 }
-else if (c>a && c>b && c>d && c>e){
-printf("Il maggiore e': %d\n", c);
+
+if(e>m){
+m = e;
 }
-else if (d>a && d>b && d>c && d>e){
-printf("Il maggiore e': %d\n", d);
-}
-else
-{
-printf("Il maggiore e': %d\n", e);
-}
+
+printf("Il mumero maggiore è %d\n ", m);
 
 
 return 0;
 }
- 
